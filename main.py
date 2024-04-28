@@ -18,8 +18,8 @@ from langchain_community.embeddings.sentence_transformer import (
 from langchain_core.prompts import (ChatPromptTemplate, FewShotChatMessagePromptTemplate)
 
 # read the files
-pdffiles = [ r"C:\Users\hp\Desktop\legal hackathon chatbot\constitution of india.pdf",
-               r"C:\Users\hp\Desktop\legal hackathon chatbot\ipc.pdf"]
+pdffiles = [ "constitution of india.pdf",
+               "ipc.pdf"]
 
 reader = PdfReader(pdffiles[0]) 
 # printing number of pages in pdf file 
