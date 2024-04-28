@@ -1,0 +1,15 @@
+openai
+langchain
+streamlit
+langchain_core
+langchain_community
+wikipedia
+arxiv
+chromadb
+faiss-cpu
+pypdf
+langchainhub
+sentence-transformers
+fastapi
+langserve
+
